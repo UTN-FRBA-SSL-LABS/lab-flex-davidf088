@@ -20,7 +20,7 @@ identificador   {letra}({letra}|{digito})*
    contadorTokens++;
     /* TODO 2 — Imprimir el identificador reconocido
        Formato esperado: printf("identificador: %s\n", yytext);  */
-   printf("identificador %s\n,",yytext);
+   printf("identificador: %s\n",yytext);
 }
 
 [ \t\n]         { }
